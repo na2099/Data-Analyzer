@@ -1,4 +1,4 @@
-# T099 Data Analyzer Version 1.0 17/06/2022
+# T099 Interactive DataSet Analyzer Version 1.0 17/06/2022
 
 The project can be reached at:
 
@@ -6,21 +6,33 @@ Voice: 613-262-2822
 
 Email: nabeelazard@cmail.carleton.ca
 
-Description:
+# Description:
 
 \------------
 
-- This project contains an interactive program that prompts a user to change or manipulate several movies in a dictionary containing a list of movies
+This project contains an interactive program that prompts a user to change or manipulate several movies in a dictionary containing a list of movies sorted by their category.
 
-sorted by their category. First and foremost, the file chosen by the user must be loaded using the load command when prompted. Once the file is
+# Program Behaviour:
 
-successfully loaded, the user can add movies, remove movies, get movies by title, rate, director, cast or category, get all categories for a movie title, and sort
+1. First and foremost a user interface (UI) will prompt the user to enter one of the given 
+   commands shown in the interface. The user **must** enter "L" (Load command) to load a file
+   chosen by the user. Note: The file must be placed in the same folder as all the files in
+   this program for the program to load it. If other commands are used before "L", the UI will
+   prompt the user to load a file.
+   
+2. Once the file is successfully loaded, the user can add movies, remove movies, get movies by
+   title, rate, director, cast or category, get all categories for a movie title, and sort 
+   movies by title, rate, director, or release year, using the commands given in the UI.
 
-movies by title, rate, director, or release year. After the execution of every command, the result of that command will be displayed. The user will be
+3. After the execution of every command, the result of that command will be displayed.
 
-prompted to enter a command until they decide to quit the program.
+4. The user will be prompted to enter a command until they decide to quit the program.
 
-- The project is made up of several files. These are:
+The Interactive UI:
+
+![Screenshot (8455)](https://github.com/na2099/Data-Analyzer/assets/117410124/0c16c784-24c6-4fd3-bd15-fc417256b458)
+
+The project is made up of several files. These are:
 
 T009\_P5\_load\_data.py                           A single Python script
 
